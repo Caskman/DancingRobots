@@ -1,0 +1,28 @@
+<!-- Eric Cascketta 4/15/2014 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.arizona.cs.wics.dancingrobots.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/dance_button"
+        android:text="Dance!"/>
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/img_view"
+        android:src="@drawable/dance1"/>
+    
+    </RelativeLayout>
+
